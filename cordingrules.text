@@ -30,4 +30,5 @@ styleの使いまわしが少ない。
 
 ・クラス命名規則：block__element--modifier
 
+・iconはまずfontawsomeから使う。
 
