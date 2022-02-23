@@ -32,3 +32,11 @@ styleの使いまわしが少ない。
 
 ・iconはまずfontawsomeから使う。
 
+・sectionタグの直下はblock__container
+
+・containerの階層下に順に、area, box, item
+
+・hタグ、pタグのクラス名はelement-text
+
+・ブロック間の高さ調整：margin-topで調整、section内の最下ブロックはmarginで上下規定
+

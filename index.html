@@ -29,6 +29,9 @@
   <!-- Font Awesome読み込み -->
   <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet">
   <link href="../bootstrap.min.css" rel="stylesheet">
+  <!-- スライダーのjsライブラリswiper.js読み込み-->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 </head>
 
 <body>
@@ -50,7 +53,7 @@
       <div class="mainvisual__container container">
         <div class="mainvisual__top">
           <div class="mainvisual__top-left">
-            <img class="mainvisual__blog-icon" src="" alt="ハチスタブログ">
+            <img class="mainvisual__blog-icon" src="image/top_icon.png" alt="ハチスタブログ">
           </div>
           <div class="mainvisual__top-right">
             <p class="mainvisual__top-text">
@@ -62,7 +65,7 @@
           </div>
         </div>
         <div class="mainvisual__iconarea">
-          <img class="mainvisual__mauntain-icon" src="" alt="八ヶ岳アイコン">
+          <img class="mainvisual__mauntain-icon" src="image/mauntain_icon.png" alt="八ヶ岳アイコン">
         </div>
         <div class="mainvisual__introduction">
           <h2 class="mainvisual__introduction-text">
@@ -88,10 +91,34 @@
           </p>
         </div>
         <div class="title__labelicon-area">
-          <img class="title__labelicon" src="" alt="ラベル">
+          <img class="title__labelicon" src="image/gourmet_label.png" alt="ラベル">
         </div>
         <div class="title__slider-area">
-
+          <!-- スライダーのコンテナ　以下swiper.jsの記法 -->
+          <!-- Slider main container -->
+          <div class="swiper mySwiper2">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">Slide 1</div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+              <div class="swiper-slide">Slide 4</div>
+            </div>
+            <!-- 必要に応じてナビボタン -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <div class="swiper mySwiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">Slide 1</div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+              <div class="swiper-slide">Slide 4</div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -109,7 +136,7 @@
         </div>
         <div class="article__recommend-area">
           <div class="article__staff">
-            <img class="article__staff-illust" src="" alt="">
+            <img class="article__staff-illust" src="image/natsume_staff.png" alt="スタッフ夏目">
             <p class="article__staff-name">
               Staff夏目
             </p>
@@ -147,7 +174,7 @@
             </p>
           </div>
           <div class="article__yatsuko-area">
-            <img class="article__yatsuko-illust" src="" alt="やつこ">
+            <img class="article__yatsuko-illust" src="image/yatsuko01.png" alt="やつこ">
             <p class="article__yatsuko-name">
               Staffやつこ
             </p>
@@ -159,7 +186,7 @@
             みんなも是非食べて欲しいにゃ!
           </p>
         </div>
-        <div class="article__sns">
+        <div class="article__sns-area">
           <p class="article__share">
             Share SNS
           </p>
@@ -212,7 +239,7 @@
             <a class="relation__link" href="">
               <div class="relation__item-top"></div>
               <div class="relation__item-middle">
-                <img class="relation__staffblog" src="" alt="スタッフブログ">
+                <img class="relation__staffblog" src="image/staffblog_icon.png" alt="スタッフブログ">
                 <img class="relation__label" src="" alt="ブログラベル">
               </div>
               <p class="relation__item-name">
@@ -227,7 +254,7 @@
             <a class="relation__link" href="">
               <div class="relation__item-top"></div>
               <div class="relation__item-middle">
-                <img class="relation__staffblog" src="" alt="スタッフブログ">
+                <img class="relation__staffblog" src="image/staffblog_icon.png" alt="スタッフブログ">
                 <img class="relation__label" src="" alt="ブログラベル">
               </div>
               <p class="relation__item-name">
@@ -242,7 +269,7 @@
             <a class="relation__link" href="">
               <div class="relation__item-top"></div>
               <div class="relation__item-middle">
-                <img class="relation__staffblog" src="" alt="スタッフブログ">
+                <img class="relation__staffblog" src="image/staffblog_icon.png" alt="スタッフブログ">
                 <img class="relation__label" src="" alt="ブログラベル">
               </div>
               <p class="relation__item-name">
@@ -260,14 +287,14 @@
     <!-- ブログ一覧へ戻る -->
     <section class="back" id="back">
       <div class="back__container container">
-        <a class="back__link" href="">
-          <div class="back__link-area">
+        <div class="back__link-area">
+          <a class="back__link" href="">
             <button class="back__button">
               ハチスタブログ一覧へGo
             </button>
-          </div>
-        </a>
-        <img class="back__arrow" src="" alt="矢印">
+          </a>
+        </div>
+        <img class="back__arrow" src="image/bloglist_arrow.png" alt="矢印">
       </div>
     </section>
 

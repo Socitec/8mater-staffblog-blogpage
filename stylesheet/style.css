@@ -1,11 +1,128 @@
 
-/* 共通スタイル */
-*{
-}
+
 
 
 /* ヘッダー */
 .header {
 }
 .header .container {
+}
+
+/* メインビジュアル */
+.mainvisual__top {
+  margin-top: 130px;
+}
+
+.mainvisual__mauntain-icon {
+  margin-top: 78px;
+}
+.mainvisual__introduction-text{
+  margin-top: 78px;
+}
+
+/* タイトル */
+.title__heading-area {
+  margin-top: 137px;
+}
+.title__catchcopy {
+  margin-top: 30px;
+}
+.title__labelicon-area {
+  margin-top: 14px;
+}
+.title__slider-area {
+  margin-top: 30px;
+}
+
+
+/* スライダー内　swiper.jsの記法 */
+.swiper--wrapper {
+  margin: 30px auto 36px;
+  /* wrapperのサイズを調整 */
+  width: 100%;
+  height: 300px;
+}
+
+.swiper-slide {
+  /* スライドのサイズを調整、中身のテキスト配置調整、背景色 */
+  color: #ffffff;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 400px;
+}
+
+.swiper-slide:nth-child(3n + 1) {
+  background-color: #de4439;
+}
+
+.swiper-slide:nth-child(3n + 2) {
+  background-color: #fcd500;
+}
+
+.swiper-slide:nth-child(3n + 3) {
+  background-color: #53c638;
+}
+
+.mySwiper2 {
+  height: 400px;
+  width: 100%;
+}
+
+.mySwiper {
+  height: 100px;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.mySwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+  line-height: 80px;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+/* 記事 */
+.article__heading-area {
+  margin-top: 44px;
+}
+.article__recommend-area {
+  margin-top: 21px;
+}
+.article__text-area {
+  margin-top: 21px;
+}
+.article__heading2-area {
+  margin-top: 85px;
+}
+.article__point-box {
+  margin-top: 27px;
+}
+.article__message-area {
+  margin-top: 10px;
+}
+.article__sns-area {
+  margin: 33px auto 18px;
+}
+
+/* お店情報 */
+.about__information {
+  margin-top: 45px;
+}
+.about__map-area {
+  margin: 30px auto 48px;
+}
+
+/* 関連記事 */
+.relation__heading-area {
+  margin-top: 67px;
+}
+
+/* ブログ一覧 */
+.relation__link-area {
+  margin: 70px auto 72px;
 }
