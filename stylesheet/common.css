@@ -1,6 +1,7 @@
 /* sectionを横断して共通でstyle設定するときに記述 */
 /* 共通スタイル */
 *{
+  text-align: center;
 }
 
 .container {
