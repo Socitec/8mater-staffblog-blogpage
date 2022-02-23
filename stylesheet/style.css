@@ -17,6 +17,12 @@
 }
 .mainvisual__iconarea {
 }
+.mainvisual__top-text {
+  font-size: 24px;
+}
+.mainvisual__top-title {
+  font-size: 52px;
+}
 .mainvisual__mauntain-icon {
   margin: 78px auto 0;
   width: 259px;
@@ -38,6 +44,7 @@
 .title__heading-text {
   width: 100%;
   margin: 0 auto;
+  font-size: 30px;
 }
 .title__catchcopy {
   margin-top: 30px;
@@ -112,6 +119,9 @@
 .article__heading-box {
 
 }
+.article__heading {
+  font-size: 24px;
+}
 .article__recommend-area {
   margin-top: 21px;
 }
@@ -123,9 +133,13 @@
 }
 .article__staff-name {
   margin-top: 15px;
+  font-size: 20px;
 }
 .article__recommend-background {
   width: 548px;
+}
+.article__recommend-text {
+  font-size: 24px;
 }
 .article__text-area {
   margin-top: 21px;
@@ -141,11 +155,17 @@
 .article__heading2-box {
   
 }
+.article__heading2 {
+  font-size: 24px;
+}
 .article__point-box {
   margin-top: 27px;
 }
 .article__point-background {
   width: 544px;
+}
+.article__point-text {
+  font-size: 24px;
 }
 .article__message-area {
   margin-top: 10px;
@@ -164,19 +184,29 @@
 }
 .article__yatsuko-name {
   margin-top: 20px;
+  font-size: 20px;
 }
 .article__sns-area {
   margin: 33px auto 18px;
 }
 .article__share {
   padding: auto 16px;
+  font-size: 20px;
 }
 /* お店情報 */
+.about__heading-text {
+  font-size: 30px;
+}
 .about__information {
   margin-top: 45px;
   text-align: left;
 }
-
+.about__name-text {
+  font-size: 28px;
+}
+.about__postal-number {
+  font-size: 16px;
+}
 .about__map-area {
   margin: 30px auto 48px;
 }
@@ -184,6 +214,9 @@
 /* 関連記事 */
 .relation__heading-area {
   margin-top: 67px;
+}
+.relation__heading-text {
+  font-size: 30px;
 }
 .relation__item {
   width: 309px;
@@ -203,6 +236,9 @@
 .relation__item-bottom {
   padding: 12px 13px;
   text-align: right;
+}
+.relation__item-name {
+  font-size: 16px;
 }
 /* ブログ一覧 */
 .back__container {
