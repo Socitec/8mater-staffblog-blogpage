@@ -90,12 +90,20 @@
 .article__heading-area {
   margin-top: 44px;
 }
+
 .article__recommend-area {
   margin-top: 21px;
+}
+.article__staff-name {
+  margin-top: 15px;
 }
 .article__text-area {
   margin-top: 21px;
 }
+.article__text {
+  padding: 27px 37px 27px 32px;
+}
+
 .article__heading2-area {
   margin-top: 85px;
 }
@@ -105,10 +113,18 @@
 .article__message-area {
   margin-top: 10px;
 }
+.article__yatsuko-name {
+  margin-top: 20px;
+}
+.article__message-text {
+  padding: 26px 29px 33px 36px;
+}
 .article__sns-area {
   margin: 33px auto 18px;
 }
-
+.article__share {
+  padding: auto 16px;
+}
 /* お店情報 */
 .about__information {
   margin-top: 45px;
@@ -121,7 +137,12 @@
 .relation__heading-area {
   margin-top: 67px;
 }
-
+.relation__item-middle {
+  padding: 8px 11px 0;
+}
+.relation__item-bottom {
+  padding: 12px 13px;
+}
 /* ブログ一覧 */
 .relation__link-area {
   margin: 70px auto 72px;
