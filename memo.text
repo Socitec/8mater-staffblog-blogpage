@@ -8,7 +8,8 @@ https://miya-system-works.com/blog/detail/vscode-github/
 ・docker コマンド
 
 docker run -d -p 8080:80 -v "C:\Users\u6311\Desktop\files\Programing\Primal Agent\業務\8mater\staffblog\frontend_cording\code1-1/:/usr/local/apache2/htdocs/" httpd
-
+ローカルホストアドレス
+http://localhost:8080/
 
 ・スライダー用jsライブラリswiper.js導入
 https://kiomiru.co.jp/blog/coding/swiper-js/

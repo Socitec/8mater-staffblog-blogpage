@@ -2,13 +2,33 @@
 /* 共通スタイル */
 *{
   text-align: center;
+  color: #333;
 }
 
 .container {
   width: 988px;
 }
 
-p {
+main p {
   font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
+
+.background-lightblue {
+  background-color: #ebf6f7;
+}
+/* 斜線ライン */ 
+.line-stripe {
+  height: 16px;
+  background: repeating-linear-gradient(45deg, rgb(187, 187, 187), rgb(187, 187, 187) 5px, transparent 5px, transparent 10px);
+}
+
+.font-color-blue {
+  color: #52d0dd;
+}
+.font-color-orange {
+  color: #ff761b;
+}
+
 

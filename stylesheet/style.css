@@ -11,6 +11,7 @@
 /* メインビジュアル */
 .mainvisual__top {
   margin-top: 130px;
+  align-items: center;
 }
 .mainvisual__blog-icon {
   width: 116px;
@@ -32,15 +33,41 @@
 .mainvisual__introduction-text{
   margin: 78px auto 0;
   width: 767px;
+  font-size: 18px;
 }
 
 /* タイトル */
+.title__container {
+  padding-bottom: 36px;
+}
 .title__heading-area {
   margin-top: 137px;
 }
 .title__heading-box {
   width: 673;
+  /* 青枠 */
+  margin:2em 0;
+  position: relative;
+  padding: 0.5em 1.5em;
+  border-top: solid 2px #52d0dd;
+  border-bottom: solid 2px #52d0dd;
 }
+.title__heading-box:before, .title__heading-box:after{
+  content: '';
+  position: absolute;
+  top: -10px;
+  width: 2px;
+  height: -webkit-calc(100% + 20px);
+  height: calc(100% + 20px);
+  background-color: #52d0dd;
+}
+.title__heading-box:before {left: 10px;}
+.title__heading-box:after {right: 10px;}
+.title__heading-box p {
+  margin: 0; 
+  padding: 0;
+}
+
 .title__heading-text {
   width: 100%;
   margin: 0 auto;
@@ -51,13 +78,19 @@
 }
 .title__catchcopy-text {
   width: 636px;
+  text-align: left;
 }
 .title__labelicon-area {
-  margin-top: 14px;
+  margin: 14px auto 0;
+  width: 797px;
   text-align: right;
 }
+.title__labelicon {
+  width: 81px;
+}
 .title__slider-area {
-  margin-top: 30px;
+  margin: 30px auto 36px;
+  width: 797px;
 }
 
 
@@ -75,23 +108,27 @@
   width: 100%;
   height: 100%;
   line-height: 400px;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center;
 }
 
 .swiper-slide:nth-child(3n + 1) {
-  background-color: #de4439;
+  background-image: url(../image/swiper1.png);  
 }
 
 .swiper-slide:nth-child(3n + 2) {
-  background-color: #fcd500;
+  background-image: url(../image/swiper2.png);  
 }
 
 .swiper-slide:nth-child(3n + 3) {
-  background-color: #53c638;
+  background-image: url(../image/swiper3.png);  
 }
 
 .mySwiper2 {
   height: 400px;
   width: 100%;
+  margin-bottom: 36px;
 }
 
 .mySwiper {
@@ -105,28 +142,38 @@
   height: 100%;
   opacity: 0.4;
   line-height: 80px;
+  border-radius: 5px;
 }
 
 .mySwiper .swiper-slide-thumb-active {
   opacity: 1;
 }
+.swiper-wrapper {
+}
 
 /* 記事 */
 .article__heading-area {
-  margin-top: 44px;
+  padding-top: 44px;
   text-align: left;
 }
 .article__heading-box {
-
+  text-align: left;
+  z-index: 10;
 }
-.article__heading {
+.article__heading-text {
+  padding-right: 85px;
+  background-color: #ebf6f7;
   font-size: 24px;
+}
+.article__line-stripe {
+  margin-top: 10px;
 }
 .article__recommend-area {
   margin-top: 21px;
 }
 .article__staff {
   width: 218px;
+  margin-left: 40px;
 }
 .article__staff-illust {
   width: 100%;
@@ -135,10 +182,19 @@
   margin-top: 15px;
   font-size: 20px;
 }
+.article__recommend2-area {
+  margin-top: 27px;
+}
+.article__recommend-box {
+  width: 534px;
+  margin-left: 28px;
+}
 .article__recommend-background {
-  width: 548px;
+  width: 100%;
 }
 .article__recommend-text {
+  width: 100%;
+  top: 125px;
   font-size: 24px;
 }
 .article__text-area {
@@ -146,35 +202,56 @@
 }
 .article__text {
   padding: 27px 37px 27px 32px;
+  text-align: left;
 }
-
 .article__heading2-area {
   margin-top: 85px;
   text-align: right;
 }
 .article__heading2-box {
-  
+  z-index: 10;
+  text-align: right;
 }
-.article__heading2 {
+.article__heading2-text {
+  padding-left: 85px;
+  background-color: #ebf6f7;
   font-size: 24px;
 }
 .article__point-box {
-  margin-top: 27px;
+  width: 534px;
+  margin-right: 36px;
 }
 .article__point-background {
   width: 544px;
 }
 .article__point-text {
+  top: 125px;
   font-size: 24px;
 }
 .article__message-area {
-  margin-top: 10px;
+  margin: 20px auto 0;
   width: 800px;
 }
-.article__message-text {
+.article__message-box {
+  position: relative;
   margin: 0 auto;
   padding: 26px 29px 33px 36px;
   width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+/* 吹き出し */
+.article__message-box :before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  right: 5%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-bottom: 15px solid #fff;
+}
+.article__message-text {
+  text-align: left;
 }
 .article__yatsuko-area {
   width: 218px;
@@ -187,16 +264,50 @@
   font-size: 20px;
 }
 .article__sns-area {
-  margin: 33px auto 18px;
+  align-items: center;
+  padding: 33px 0 18px;
 }
 .article__share {
   padding: auto 16px;
   font-size: 20px;
 }
+.article__icon-box {
+  display: table;
+  margin-left: 19px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  line-height: 60px;
+  background-color: #179cf0;
+
+}
+.fa-twitter {
+  display: table-cell;
+  vertical-align: middle;
+  color: #fff;
+}
+
 /* お店情報 */
+.about__container {
+  padding: 63px 0 48px;
+}
+.about__line-stripe {
+  margin-top: 13px;
+}
+.about__heading-box {
+  z-index: 10;
+}
 .about__heading-text {
+  padding: 0 85px;
+  background-color: #fff;
   font-size: 30px;
 }
+.about__name-area {
+  padding: 24px 31px;
+  border-left: 4px solid #52d0dd;
+  border-right: 4px solid #52d0dd;
+}
+
 .about__information {
   margin-top: 45px;
   text-align: left;
@@ -204,25 +315,47 @@
 .about__name-text {
   font-size: 28px;
 }
+.about__adress-area {
+  padding-left: 37px;
+}
 .about__postal-number {
   font-size: 16px;
 }
 .about__map-area {
   margin: 30px auto 48px;
+  height: 549px;
 }
 
 /* 関連記事 */
+.relation__container {
+  padding: 67px 0 44px;
+}
 .relation__heading-area {
-  margin-top: 67px;
+}
+.relation__line-stripe {
+  margin-top: 13px;
+}
+.relation__heading-box {
+  z-index: 10;
 }
 .relation__heading-text {
+  padding: 0 85px;
+  background-color: #ebf6f7;
   font-size: 30px;
 }
 .relation__item {
   width: 309px;
+  background-color: #fff;
 }
 .relation__link-area {
   margin: 70px auto 72px;
+}
+.relation__item-top {
+  width: 100%;
+  height: 230px;
+  background-image: url(../image/curry.JPG);
+  background-size: cover;
+  background-position: center;
 }
 .relation__item-middle {
   padding: 8px 11px 0;
@@ -234,19 +367,30 @@
   width: 81px;
 }
 .relation__item-bottom {
-  padding: 12px 13px;
-  text-align: right;
-}
+  padding: 12px 13px 38px;
+} 
 .relation__item-name {
+  text-align: left;
   font-size: 16px;
 }
+.relation_item-heading {
+  text-align: left;
+}
+
 /* ブログ一覧 */
 .back__container {
+  padding: 68px 0 74px;
   text-align: left;
 }
 
 .back__button {
-  padding: 5px 15px;
+  margin-right: 27px;
+  padding: 0 15px;
+  height: 28px;
+  line-height: 28px;
+  border-radius: 14px;
+  background-color: #52d0dd;
+  color: #fff;
 }
 .back__arrow {
   width: 243px;

@@ -16,7 +16,8 @@
   <!-- サムネイル読み込み -->
   <meta name="thumbnail" content="" />
   <!-- BootstrapのCSS読み込み -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <!-- Reset css読み込み -->
   <link rel="stylesheet" href="stylesheet\destyle.css">
   <!-- 共通style(ブロックを超えて適用する)読み込み -->
@@ -26,7 +27,7 @@
   <!-- レスポンシブStylesheet読み込み -->
   <link rel="stylesheet" href="stylesheet/responsive.css">
   <!-- Font Awesome読み込み -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" rel="stylesheet">
   <link href="../bootstrap.min.css" rel="stylesheet">
   <!-- スライダーのjsライブラリswiper.js読み込み-->
   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
@@ -50,7 +51,7 @@
     <!-- メインビジュアル -->
     <section class="mainvisual" id="mainvisual">
       <div class="mainvisual__container container ">
-        <div class="mainvisual__top d-inline">
+        <div class="mainvisual__top d-flex justify-content-center ">
           <div class="mainvisual__top-left d-inline-block">
             <img class="mainvisual__blog-icon" src="image/top_icon.png" alt="ハチスタブログ">
           </div>
@@ -99,10 +100,10 @@
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
               <!-- Slides -->
-              <div class="swiper-slide">Slide 1</div>
-              <div class="swiper-slide">Slide 2</div>
-              <div class="swiper-slide">Slide 3</div>
-              <div class="swiper-slide">Slide 4</div>
+              <div class="swiper-slide"></div>
+              <div class="swiper-slide"></div>
+              <div class="swiper-slide"></div>
+              <div class="swiper-slide"></div>
             </div>
             <!-- 必要に応じてナビボタン -->
             <div class="swiper-button-prev"></div>
@@ -112,10 +113,10 @@
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
               <!-- Slides -->
-              <div class="swiper-slide">Slide 1</div>
-              <div class="swiper-slide">Slide 2</div>
-              <div class="swiper-slide">Slide 3</div>
-              <div class="swiper-slide">Slide 4</div>
+              <div class="swiper-slide"></div>
+              <div class="swiper-slide"></div>
+              <div class="swiper-slide"></div>
+              <div class="swiper-slide"></div>
             </div>
           </div>
         </div>
@@ -123,55 +124,58 @@
     </section>
 
     <!-- 記事 -->
-    <section class="article" id="article">
+    <section class="article background-lightblue" id="article">
       <div class="article__container container">
-        <div class="article__heading-area">
-          <div class="article__heading-box d-inline-block ">
-            <h2 class="article__heading">
+        <div class="article__heading-area position-relative d-flex">
+          <div class="article__heading-box position-absolute d-inline-block w-100">
+            <h2 class="article__heading-text d-inline-block font-color-blue">
               天ぷら蕎麦が激アツ
             </h2>
           </div>
-          <img class="article__stripe" src="" alt="ストライプ">
+          <div class="article__line-stripe d-inline-block line-stripe w-100"></div>
         </div>
-        <div class="article__recommend-area">
+        <div class="article__recommend-area d-flex">
           <div class="article__staff d-inline-block ">
             <img class="article__staff-illust" src="image/natsume_staff.png" alt="スタッフ夏目">
             <p class="article__staff-name">
               Staff夏目
             </p>
           </div>
-          <div class="article__recommend-box d-inline-block">
-            <img class="article__recommend-background" src="image/recommend_frame.png" alt="おすすめ吹き出し">
-            <p class="article__recommend-text">
-              天ぷらセット￥880ー（税込）コスパ最高!!
-            </p>
-          </div>
-          <div class="article__text-area">
-            <p class="article__text">
-              長野で美味しい蕎麦屋見つけた！長野で美味しい蕎麦屋見つけた！長野で美味しい蕎麦屋見つけた！<br>
-              長野で美味しい蕎麦屋見つけた！長野で美味しい蕎麦屋見つけた！長野で美味しい蕎麦屋見つけた！<br>
-              長野で美味しい蕎麦屋見つけた！長野で美味しい蕎麦屋見つけた！長野で美味しい蕎麦屋見つけた！<br>
-              長野で美味しい蕎麦屋見つけた！長野で美味しい蕎麦屋見つけた！長野で美味しい蕎麦屋見つけた！<br>
-              長野で美味しい蕎麦屋見つけた！長野で美味しい蕎麦屋見つけた！長野で美味しい蕎麦屋見つけた！<br>
-              長野で美味しい蕎麦屋見つけた！長野で美味しい蕎麦屋見つけた！
+          <div class="article__recommend-box d-inline-block position-relative">
+            <img class="article__recommend-background w-100" src="image/recommend_frame.png" alt="おすすめ吹き出し">
+            <p class="article__recommend-text position-absolute w-100 font-weight-bold font-color-orange">
+              天ぷらセット￥880ー（税込）<br>
+              コスパ最高!!
             </p>
           </div>
         </div>
-        <div class="article__heading2-area">
-          <img class="article__stripe" src="" alt="ストライプ">
-          <div class="article__heading2-box d-inline-block">
-            <h2 class="article__heading2 d-inline-block">
+        <div class="article__text-area">
+          <p class="article__text">
+            長野で美味しい蕎麦屋見つけた！長野で美味しい蕎麦屋見つけた！長野で美味しい蕎麦屋見つけた！<br>
+            長野で美味しい蕎麦屋見つけた！長野で美味しい蕎麦屋見つけた！長野で美味しい蕎麦屋見つけた！<br>
+            長野で美味しい蕎麦屋見つけた！長野で美味しい蕎麦屋見つけた！長野で美味しい蕎麦屋見つけた！<br>
+            長野で美味しい蕎麦屋見つけた！長野で美味しい蕎麦屋見つけた！長野で美味しい蕎麦屋見つけた！<br>
+            長野で美味しい蕎麦屋見つけた！長野で美味しい蕎麦屋見つけた！長野で美味しい蕎麦屋見つけた！<br>
+            長野で美味しい蕎麦屋見つけた！長野で美味しい蕎麦屋見つけた！
+          </p>
+        </div>
+        <div class="article__heading2-area position-relative d-flex ">
+          <div class="article__line-stripe w-100 line-stripe"></div>
+          <div class="article__heading2-box position-absolute w-100 d-inline-block">
+            <h2 class="article__heading2-text d-inline-block font-color-blue">
               こだわりの二八製法が奏でる秘伝のつゆとのハーモニー
             </h2>
           </div>
         </div>
-        <div class="article__recommend2-area">
-          <div class="article__point-box d-inline-block">
-            <img class="article__point-background" src="image/point_frame.png" alt="おすすめ吹き出し">
-            <p class="article__point-text">
-              しなやかなコシ、滑らか食感で美味しいよ!!
+        <div class="article__recommend2-area d-flex justify-content-end">
+          <div class="article__point-box d-inline-block position-relative">
+            <img class="article__point-background w-100" src="image/point_frame.png" alt="おすすめ吹き出し">
+            <p class="article__recommend-text position-absolute w-100 font-weight-bold font-color-orange">
+              しなやかなコシ、滑らか食感で<br>
+              美味しいよ!!
             </p>
           </div>
+
           <div class="article__yatsuko-area d-inline-block ">
             <img class="article__yatsuko-illust" src="image/yatsuko01.png" alt="やつこ">
             <p class="article__yatsuko-name">
@@ -179,17 +183,23 @@
             </p>
           </div>
         </div>
-        <div class="article__message-area d-inline-block">
-          <p class="article__message-text">
-            やつこのイチオシポイントは、麺!麺が決めてにゃ!固すぎず、柔らかすぎず、丁度良い歯応え。そして秘伝のつゆとのハーモニーが萌えたのにゃ。<br>
-            みんなも是非食べて欲しいにゃ!
-          </p>
+        <div class="article__message-area ">
+          <div class="article__message-box d-inline-block">
+            <p class="article__message-text">
+              やつこのイチオシポイントは、麺!麺が決めてにゃ!固すぎず、柔らかすぎず、丁度良い歯応え。そして秘伝のつゆとのハーモニーが萌えたのにゃ。<br>
+              みんなも是非食べて欲しいにゃ!
+            </p>
+          </div>
         </div>
-        <div class="article__sns-area">
-          <p class="article__share">
+        <div class="article__sns-area d-flex justify-content-end">
+          <p class="article__share d-inline-block font-color-blue">
             Share SNS
           </p>
-          <i class="fa-brands fa-twitter"></i>
+          <a href="">
+            <div class="article__icon-box">
+              <i class="fa-brands fa-twitter fa-2x"></i>
+            </div>
+          </a>
         </div>
       </div>
     </section>
@@ -197,12 +207,13 @@
     <!-- お店情報 -->
     <section class="about" id="about">
       <div class="about__container container">
-        <div class="about__heading-area">
-          <img class="about__heading-stripe" src="" alt="ストライプ">
-          <h2 class="about__heading-text d-inline-block">
-            お店情報
-          </h2>
-          <img class="about__heading-stripe" src="" alt="ストライプ">
+        <div class="about__heading-area position-relative d-flex">
+          <div class="about__line-stripe d-inline-block w-100 line-stripe"></div>
+          <div class="about__heading-box position-absolute w-100">
+            <h2 class="about__heading-text d-inline-block font-color-blue">
+              お店情報
+            </h2>
+          </div>
         </div>
         <div class="about__information ">
           <div class="about__name-area d-inline-block">
@@ -219,31 +230,34 @@
             </p>
           </div>
           <div class="about__map-area">
-
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3231.419590648834!2d138.23567111526518!3d35.91222838014108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601c5cb55cfb116f%3A0x714937df5bdb4f4c!2z5a-M5aOr6KaL6aeF!5e0!3m2!1sja!2sjp!4v1645800558287!5m2!1sja!2sjp"
+              width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           </div>
         </div>
       </div>
     </section>
 
     <!-- 関連記事 -->
-    <section class="relation" id="relation">
-      <div class="relation_container container">
-        <div class="relation__heading-area">
-          <img class="relation__heading-stripe" src="" alt="ストライプ">
-          <p class="relation__heading-text d-inline-block">
-            関連記事
-          </p>
-          <img class="relation__heading-stripe" src="" alt="ストライプ">
+    <section class="relation background-lightblue" id="relation">
+      <div class="relation__container container">
+        <div class="relation__heading-area position-relative d-flex">
+          <div class="relation__line-stripe d-inline-block  w-100 line-stripe"></div>
+          <div class="relation__heading-box position-absolute w-100">
+            <p class="relation__heading-text d-inline-block font-color-blue">
+              関連記事
+            </p>
+          </div>
         </div>
         <div class="relation__link-area d-flex justify-content-between">
           <div class="relation__item item1 d-inline-block">
             <a class="relation__link" href="">
               <div class="relation__item-top"></div>
-              <div class="relation__item-middle">
+              <div class="relation__item-middle d-flex justify-content-between">
                 <img class="relation__staffblog-icon" src="image/staffblog_icon.png" alt="スタッフブログ">
-                <img class="relation__label" src="" alt="ブログラベル">
+                <img class="relation__label" src="image/eat_label.png" alt="ブログラベル">
               </div>
-              <div class="relation__item-bottom ">
+              <div class="relation__item-bottom">
                 <p class="relation__item-name">
                   店名など
                 </p>
@@ -256,11 +270,11 @@
           <div class="relation__item item2 d-inline-block">
             <a class="relation__link" href="">
               <div class="relation__item-top"></div>
-              <div class="relation__item-middle">
+              <div class="relation__item-middle d-flex justify-content-between">
                 <img class="relation__staffblog-icon" src="image/staffblog_icon.png" alt="スタッフブログ">
-                <img class="relation__label" src="" alt="ブログラベル">
+                <img class="relation__label" src="image/eat_label.png" alt="ブログラベル">
               </div>
-              <div class="relation__item-bottom ">
+              <div class="relation__item-bottom">
                 <p class="relation__item-name">
                   店名など
                 </p>
@@ -273,11 +287,11 @@
           <div class="relation__item item3 d-inline-block">
             <a class="relation__link" href="">
               <div class="relation__item-top"></div>
-              <div class="relation__item-middle">
+              <div class="relation__item-middle d-flex justify-content-between">
                 <img class="relation__staffblog-icon" src="image/staffblog_icon.png" alt="スタッフブログ">
-                <img class="relation__label" src="" alt="ブログラベル">
+                <img class="relation__label" src="image/eat_label.png" alt="ブログラベル">
               </div>
-              <div class="relation__item-bottom ">
+              <div class="relation__item-bottom">
                 <p class="relation__item-name">
                   店名など
                 </p>
@@ -296,7 +310,7 @@
       <div class="back__container container ">
         <div class="back__link-area d-inline-block">
           <a class="back__link" href="">
-            <button class="back__button">
+            <button class="back__button font-weight-bold">
               ハチスタブログ一覧へGo
             </button>
           </a>
