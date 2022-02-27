@@ -33,6 +33,7 @@
 }
 .mainvisual__introduction-text{
   margin: 78px auto 0;
+  text-align: left;
   width: 767px;
   font-size: 18px;
 }
@@ -282,7 +283,7 @@
   background-color: #179cf0;
 
 }
-.fa-twitter {
+.article__icon-twitter {
   display: table-cell;
   vertical-align: middle;
   color: #fff;
@@ -386,7 +387,9 @@
   padding: 68px 0 74px;
   text-align: left;
 }
-
+.back__button-area {
+  text-align: left;
+}
 .back__button {
   margin-right: 27px;
   padding: 0 15px;
@@ -399,3 +402,46 @@
 .back__arrow {
   width: 243px;
 }
+.back__sns-top-area {
+  margin-top: 62px;
+  position: relative;
+  background-color: #179cf0;
+}
+.back__sns-icon-box {
+  position: absolute;
+  left: 0;
+  line-height: 40px;
+  padding-left: 4.6vw;
+}
+.back__sns-top--icon {
+  color: #fff;
+}
+.back__sns-top-text {
+  line-height: 40px;
+  font-size: 18px;
+  color: #fff;
+}
+.back__sns-bottom-area {
+  align-items: center;
+  padding: 33px 0 18px;
+}
+.back__share {
+  padding: auto 16px;
+  font-size: 18px;
+  line-height: 60px;
+  left: 0;
+}
+.back__icon-box {
+  align-items: center;
+  margin-left: 19px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  line-height: 60px;  
+  background-color: #179cf0;
+}
+.back__icon-twitter {
+  font-size: 2em;
+  color: #fff;
+}
+

@@ -20,7 +20,10 @@
 
 
   /* メインビジュアル */
-
+  .mainvisual__top {
+    margin-top: 56px;
+    align-items: center;
+  }
   .mainvisual__blog-icon {
     width: 16.7vw;
   }
@@ -31,14 +34,28 @@
   .mainvisual__top-title {
     font-size: 30px;
   }
-
+  .mainvisual__mauntain-icon {
+    margin-top: 34px;
+    width: 128px;
+  }
   .mainvisual__introduction-text {
+    margin-top: 36px;
+    
   width: 100%;
   }
 
   /*　タイトル */
+  .title__heading-area {
+    margin-top: 42px;
+  }
+  .title__heading-box{
+    margin: 0;
+  }
   .title__heading-text {
     font-size: 15px;
+  }
+  .title__catchcopy {
+    margin-top: 25px;
   }
   .title__catchcopy-text {
     width: 100%;
@@ -50,6 +67,13 @@
 
   .title__slider-area {
     width: 100%;
+  }
+  .mySwiper2 {
+    height: 54.1vw;
+    margin-bottom: 15px;
+  }
+  .mySwiper {
+    height: 17vw;
   }
 
   /* 記事 */
@@ -69,8 +93,14 @@
     width: 56.8vw;
     margin-left: 0;
   }
+  .article__text-area {
+    margin-top: 17px;
+  }
   .article__text {
-    padding: 27px 0 27px 0;
+    padding: 0;
+  }
+  .article__heading2-area {
+    margin-top: 42px;
   }
   .article__recommend-text {
     top: 57px;
@@ -96,6 +126,12 @@
   .article__message-area {
     width: 100%;
   }
+  .article__message-box {
+    padding: 13px 14px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+  }
   .article__share {
     font-size: 10px;
   }
@@ -105,13 +141,19 @@
     height: 30px;
     line-height: 30px;
   }
-  .fa-twitter {
+  .article__icon-twitter {
     font-size: 1em;
   }
 
   /* お店情報 */
+  .about__container {
+    padding: 31px 0 24px;
+  }
   .about__heading-text {
     font-size: 18px;
+  }
+  .about__information {
+    margin-top: 22px;
   }
   .about__name-area {
     padding: 10px 15px;
@@ -125,9 +167,17 @@
   .about__postal-number {
     font-size: 13px;
   }
+  .about__map-area {
+    margin: 15px auto 24px;
+    height: 84.0vw;
+  }
 
   /* 関連記事 */
+  .relation__container {
+    padding: 23px 0 22px;
+  }
   .relation__link-area {
+    margin: 15px auto 15px;
   }
   .relation__heading-text {
     font-size: 18px;
@@ -145,6 +195,9 @@
   .relation__label {
     width: 9.78vw;
   }
+  .relation__item-bottom {
+    padding: 6px 6px 19px;
+  }
   .relation__item-name {
     font-size: 9px;
   }
@@ -154,9 +207,13 @@
 
 
   /* ブログ一覧 */
+  .back__button {
+    margin-right: 0;
+  }
   .back__arrow {
     width: 28.5vw;
   }
+
 
 
 
