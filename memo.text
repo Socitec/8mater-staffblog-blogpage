@@ -15,4 +15,6 @@ http://localhost:8080/
 https://kiomiru.co.jp/blog/coding/swiper-js/
 https://swiperjs.com/get-started#use-swiper-from-cdn
 
-
+・ブラウザチェックについて
+基本chromeで確認
+スマホ用ページはwidth390px iphone12proを想定

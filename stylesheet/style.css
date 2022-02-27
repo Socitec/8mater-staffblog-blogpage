@@ -19,6 +19,7 @@
 .mainvisual__iconarea {
 }
 .mainvisual__top-text {
+  text-align: left;
   font-size: 24px;
 }
 .mainvisual__top-title {
@@ -285,6 +286,7 @@
   display: table-cell;
   vertical-align: middle;
   color: #fff;
+  font-size: 2em;
 }
 
 /* お店情報 */
@@ -309,6 +311,7 @@
 }
 
 .about__information {
+  align-items: center;
   margin-top: 45px;
   text-align: left;
 }
@@ -348,6 +351,7 @@
   background-color: #fff;
 }
 .relation__link-area {
+  flex-wrap: wrap;
   margin: 70px auto 72px;
 }
 .relation__item-top {
