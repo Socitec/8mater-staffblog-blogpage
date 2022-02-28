@@ -34,8 +34,9 @@
 .mainvisual__introduction-text{
   margin: 78px auto 0;
   text-align: left;
-  width: 100%;
+  width: 767px;
   font-size: 18px;
+  max-width: 100%;
 }
 
 /* タイトル */
@@ -95,6 +96,7 @@
 .title__slider-area {
   margin: 30px auto 36px;
   width: 75vw;
+  max-width: 797px;
 }
 
 
@@ -165,7 +167,7 @@
   z-index: 10;
 }
 .article__heading-text {
-  padding-right: 85px;
+  padding-right: 1em;
   background-color: #ebf6f7;
   font-size: 24px;
 }
@@ -201,7 +203,7 @@
 .article__recommend-text {
   width: 100%;
   top: 35%;
-  font-size: 2.4vw;
+  font-size: 2.2Svw;
 }
 .article__text-area {
   margin-top: 21px;
@@ -221,7 +223,7 @@
   text-align: right;
 }
 .article__heading2-text {
-  padding-left: 85px;
+  padding-left: 1em;
   background-color: #ebf6f7;
   font-size: 24px;
 }
@@ -308,7 +310,7 @@
   z-index: 10;
 }
 .about__heading-text {
-  padding: 0 85px;
+  padding: 0 1em;
   background-color: #fff;
   font-size: 30px;
 }
@@ -354,7 +356,7 @@
   z-index: 10;
 }
 .relation__heading-text {
-  padding: 0 85px;
+  padding: 0 1em;
   background-color: #ebf6f7;
   font-size: 30px;
 }
