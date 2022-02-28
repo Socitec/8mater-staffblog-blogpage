@@ -34,7 +34,7 @@
 .mainvisual__introduction-text{
   margin: 78px auto 0;
   text-align: left;
-  width: 767px;
+  width: 100%;
   font-size: 18px;
 }
 
@@ -80,11 +80,13 @@
 }
 .title__catchcopy-text {
   width: 636px;
+  max-width: 100%;
   text-align: left;
 }
 .title__labelicon-area {
   margin: 14px auto 0;
   width: 797px;
+  max-width: 100%;
   text-align: right;
 }
 .title__labelicon {
@@ -92,7 +94,7 @@
 }
 .title__slider-area {
   margin: 30px auto 36px;
-  width: 797px;
+  width: 75vw;
 }
 
 
@@ -174,7 +176,7 @@
   margin-top: 21px;
 }
 .article__staff {
-  width: 218px;
+  width: 22.1%;
   margin-left: 40px;
 }
 .article__staff-illust {
@@ -188,16 +190,18 @@
   margin-top: 27px;
 }
 .article__recommend-box {
-  width: 534px;
+  width: 54.8%;
   margin-left: 28px;
+  display: grid;
+  place-items: center; 
 }
 .article__recommend-background {
   width: 100%;
 }
 .article__recommend-text {
   width: 100%;
-  top: 125px;
-  font-size: 24px;
+  top: 35%;
+  font-size: 2.4vw;
 }
 .article__text-area {
   margin-top: 21px;
@@ -205,6 +209,8 @@
 .article__text {
   padding: 27px 37px 27px 32px;
   text-align: left;
+  background-color: #fff;
+  border-radius: 10px;
 }
 .article__heading2-area {
   margin-top: 85px;
@@ -233,6 +239,7 @@
 .article__message-area {
   margin: 20px auto 0;
   width: 800px;
+  max-width: 100%;
 }
 .article__message-box {
   position: relative;
@@ -306,7 +313,7 @@
   font-size: 30px;
 }
 .about__name-area {
-  padding: 24px 31px;
+  padding: 1em;
   border-left: 4px solid #52d0dd;
   border-right: 4px solid #52d0dd;
 }
@@ -317,13 +324,17 @@
   text-align: left;
 }
 .about__name-text {
-  font-size: 28px;
+  font-size: 3vw;
 }
 .about__adress-area {
-  padding-left: 37px;
+  padding-left: 1em;
 }
 .about__postal-number {
-  font-size: 16px;
+  text-align: left;
+  font-size: 1.6vw;
+}
+.about__adress-text{
+  font-size: 2vw;
 }
 .about__map-area {
   margin: 30px auto 48px;
@@ -349,6 +360,8 @@
 }
 .relation__item {
   width: 309px;
+  max-width: 45%;
+  margin-bottom: 15px;
   background-color: #fff;
 }
 .relation__link-area {

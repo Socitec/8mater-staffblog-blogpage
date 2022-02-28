@@ -102,9 +102,6 @@
   .article__heading2-area {
     margin-top: 42px;
   }
-  .article__recommend-text {
-    top: 57px;
-  }
   .article__point-box {
     width: 56vw;
     margin-right: 0;
@@ -115,7 +112,6 @@
     font-size: 17px;
   }
   .article__recommend-text {
-    font-size: 12px;
   }
   .article__yatsuko-area {
     width: 26vw;
@@ -184,7 +180,6 @@
   }
   .relation__item {
     width: 37.4vw;
-    margin-bottom: 15px;
   }
   .relation__item-top {
     height: 27.8vw;

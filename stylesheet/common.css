@@ -4,17 +4,18 @@
   text-align: center;
   color: #333;
 }
-
+body {
+  font-family : "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+  font-weight: 500;
+}
 .container {
   width: 988px;
 }
-
 main p {
   font-size: 18px;
   margin-top: 0;
   margin-bottom: 0;
 }
-
 .background-lightblue {
   background-color: #ebf6f7;
 }
@@ -29,6 +30,10 @@ main p {
 }
 .font-color-orange {
   color: #ff761b;
+}
+
+.font-weight-b {
+  font-weight: bold;
 }
 
 
