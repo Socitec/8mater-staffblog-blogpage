@@ -111,7 +111,6 @@
 .swiper-slide {
   /* スライドのサイズを調整、中身のテキスト配置調整、背景色 */
   color: #fff;
-  line-height: 400px;
   border-radius: 5px;
 }
 
@@ -138,7 +137,6 @@
   width: 16%;
   height: 100%;
   opacity: 0.4;
-  line-height: 80px;
   border-radius: 5px;
 }
 
