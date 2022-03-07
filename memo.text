@@ -9,7 +9,9 @@ https://miya-system-works.com/blog/detail/vscode-github/
 
 docker run -d -p 8080:80 -v "C:\Users\u6311\Desktop\files\Programing\Primal Agent\業務\8mater\staffblog\frontend_cording\code1-1/:/usr/local/apache2/htdocs/" httpd
 ローカルホストアドレス
-http://localhost:8080/
+http://localhost:8080/blogpage.html
+
+
 
 ・スライダー用jsライブラリswiper.js導入
 https://kiomiru.co.jp/blog/coding/swiper-js/
@@ -18,3 +20,10 @@ https://swiperjs.com/get-started#use-swiper-from-cdn
 ・ブラウザチェックについて
 基本chromeで確認
 スマホ用ページはwidth390px iphone12proを想定
+
+・画像挿入
+htmlのimgタグにする
+divのbackground-imageにしない。
+
+https://www.webcreatorbox.com/tech/object-fit
+

@@ -7,7 +7,7 @@ $(function(){
   // swiper.js
   const swiper = new Swiper(".mySwiper", {
     spaceBetween: 10,
-    slidesPerView: 4
+    slidesPerView: 6
   });
   
   const swiper2 = new Swiper(".mySwiper2", {

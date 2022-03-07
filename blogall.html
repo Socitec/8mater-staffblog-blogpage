@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>ハチスタブログ</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <!-- 検索エンジンにインデックスさせない　ページ作成後に削除-->
+  <meta name="robots" content="noindex">
+  <!-- favicon読み込み -->
+  <link rel="icon" href="">
+  <!-- Viewport読み込み -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes">
+  <!-- サムネイル読み込み -->
+  <meta name="thumbnail" content="" />
+  <!-- BootstrapのCSS読み込み -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Reset css読み込み -->
+  <link rel="stylesheet" href="stylesheet\destyle.css">
+  <!-- 共通style(ブロックを超えて適用する)読み込み -->
+  <link rel="stylesheet" href="stylesheet\common.css">
+  <!-- Stylesheet読み込み -->
+  <link rel="stylesheet" href="stylesheet/style.css">
+  <!-- レスポンシブStylesheet読み込み -->
+  <link rel="stylesheet" href="stylesheet/responsive.css">
+  <!-- Font Awesome読み込み -->
+  <link href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" rel="stylesheet">
+  <link href="../bootstrap.min.css" rel="stylesheet">
+  <!-- スライダーのjsライブラリswiper.js読み込み-->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+  <!-- ヘッダー -->
+  <header class="header" id="header">
+    <div class="container">
+
+    </div>
+  </header>
+
+  <!-- トップボタン固定 -->
+  <div id="pageTop" class="topButton">
+
+  </div>
+
+  <main>
+    <!-- メインビジュアル -->
+    <section class="mainvisual" id="mainvisual">
+      <div class="mainvisual__container container ">
+        <div class="mainvisual__top d-flex justify-content-center ">
+          <div class="mainvisual__top-left d-inline-block">
+            <img class="mainvisual__blog-icon" src="image/top_icon.png" alt="ハチスタブログ">
+          </div>
+          <div class="mainvisual__top-right d-inline-block">
+            <p class="mainvisual__top-text font-weight-b">
+              8mater
+            </p>
+            <p class="mainvisual__top-title font-weight-b">
+              ハチスタブログ
+            </p>
+          </div>
+        </div>
+        <div class="mainvisual__iconarea">
+          <img class="mainvisual__mauntain-icon" src="image/mauntain_icon.png" alt="八ヶ岳アイコン">
+        </div>
+        <div class="mainvisual__introduction">
+          <h2 class="mainvisual__introduction-text d-inline-block font-weight-b">
+            8materスタッフが八ヶ岳にあるお店や風景、オススメポイントなど、スタッフから見た魅力をどしどし発信します♪是非お気に入りの場所を見つけて、現地にGO→！！
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- タイトル -->
+    <section class="staffBlogTitle" id="staffBlogTitle">
+      <div class="title__container container">
+        <div class="title__heading-area">
+          <div class="title__heading-box d-inline-block">
+            <h1 class="title__heading-text font-weight-b">
+              長野で美味しい蕎麦屋見つけた！
+            </h1>
+          </div>
+        </div>
+        <div class="title__catchcopy">
+          <p class="title__catchcopy-text d-inline-block font-weight-b">
+            八ヶ岳、長野県諏訪郡富士見町にて、8materのスタッフNが見つけたうまい蕎麦屋レポート!!
+          </p>
+        </div>
+        <div class="title__labelicon-area">
+          <img class="title__labelicon" src="image/gourmet_label.png" alt="ラベル">
+        </div>
+        <div class="title__slider-area">
+          <!-- スライダーのコンテナ　以下swiper.jsの記法 -->
+          <!-- Slider main container -->
+          <div class="swiper mySwiper2">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"></div>
+              <div class="swiper-slide"></div>
+              <div class="swiper-slide"></div>
+              <div class="swiper-slide"></div>
+            </div>
+            <!-- 必要に応じてナビボタン -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <div class="swiper mySwiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"></div>
+              <div class="swiper-slide"></div>
+              <div class="swiper-slide"></div>
+              <div class="swiper-slide"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 記事 -->
+    <section class="article background-lightblue" id="article">
+      <div class="article__container container">
+        <div class="article__heading-area position-relative d-flex">
+          <div class="article__heading-box position-absolute d-inline-block w-100">
+            <h2 class="article__heading-text d-inline-block font-color-blue font-weight-b">
+              天ぷら蕎麦が激アツ
+            </h2>
+          </div>
+          <div class="article__line-stripe d-inline-block line-stripe w-100"></div>
+        </div>
+        <div class="article__recommend-area d-flex">
+          <div class="article__staff d-inline-block ">
+            <img class="article__staff-illust" src="image/natsume_staff.png" alt="スタッフ夏目">
+            <p class="article__staff-name font-weight-b">
+              Staff夏目
+            </p>
+          </div>
+          <div class="article__recommend-box d-inline-block position-relative">
+            <img class="article__recommend-background w-100" src="image/recommend_frame.png" alt="おすすめ吹き出し">
+            <p class="article__recommend-text position-absolute w-100 font-color-orange font-weight-b">
+              天ぷらセット￥880ー（税込）<br>
+              コスパ最高!!
+            </p>
+          </div>
+        </div>
+        <div class="article__text-area">
+          <p class="article__text">
+            長野で美味しい蕎麦屋見つけた！長野で美味しい蕎麦屋見つけた！長野で美味しい蕎麦屋見つけた！<br>
+            長野で美味しい蕎麦屋見つけた！長野で美味しい蕎麦屋見つけた！長野で美味しい蕎麦屋見つけた！<br>
+            長野で美味しい蕎麦屋見つけた！長野で美味しい蕎麦屋見つけた！長野で美味しい蕎麦屋見つけた！<br>
+            長野で美味しい蕎麦屋見つけた！長野で美味しい蕎麦屋見つけた！長野で美味しい蕎麦屋見つけた！<br>
+            長野で美味しい蕎麦屋見つけた！長野で美味しい蕎麦屋見つけた！長野で美味しい蕎麦屋見つけた！<br>
+            長野で美味しい蕎麦屋見つけた！長野で美味しい蕎麦屋見つけた！
+          </p>
+        </div>
+        <div class="article__heading2-area position-relative d-flex ">
+          <div class="article__line-stripe w-100 line-stripe"></div>
+          <div class="article__heading2-box position-absolute w-100 d-inline-block">
+            <h2 class="article__heading2-text d-inline-block font-color-blue font-weight-b">
+              こだわりの二八製法が奏でる秘伝のつゆとのハーモニー
+            </h2>
+          </div>
+        </div>
+        <div class="article__recommend2-area d-flex justify-content-end">
+          <div class="article__point-box d-inline-block position-relative">
+            <img class="article__point-background w-100" src="image/point_frame.png" alt="おすすめ吹き出し">
+            <p class="article__recommend-text position-absolute w-100 font-color-orange font-weight-b">
+              しなやかなコシ、滑らか食感で<br>
+              美味しいよ!!
+            </p>
+          </div>
+
+          <div class="article__yatsuko-area d-inline-block ">
+            <img class="article__yatsuko-illust" src="image/yatsuko01.png" alt="やつこ">
+            <p class="article__yatsuko-name font-weight-b">
+              Staffやつこ
+            </p>
+          </div>
+        </div>
+        <div class="article__message-area ">
+          <div class="article__message-box d-inline-block">
+            <p class="article__message-text">
+              やつこのイチオシポイントは、麺!麺が決めてにゃ!固すぎず、柔らかすぎず、丁度良い歯応え。そして秘伝のつゆとのハーモニーが萌えたのにゃ。<br>
+              みんなも是非食べて欲しいにゃ!
+            </p>
+          </div>
+        </div>
+        <div class="article__sns-area d-flex justify-content-end">
+          <p class="article__share d-inline-block font-color-blue font-weight-b">
+            Share SNS
+          </p>
+          <a href="">
+            <div class="article__icon-box">
+              <i class="fa-brands fa-twitter article__icon-twitter"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- お店情報 -->
+    <section class="about" id="about">
+      <div class="about__container container">
+        <div class="about__heading-area position-relative d-flex">
+          <div class="about__line-stripe d-inline-block w-100 line-stripe"></div>
+          <div class="about__heading-box position-absolute w-100">
+            <h2 class="about__heading-text d-inline-block font-color-blue font-weight-b">
+              お店情報
+            </h2>
+          </div>
+        </div>
+        <div class="about__information d-flex justify-content-start">
+          <div class="about__name-area d-inline-block">
+            <p class="about__name-text font-weight-b">
+              そば処　丸よし
+            </p>
+          </div>
+          <div class="about__adress-area d-inline-block">
+            <p class="about__postal-number">
+              〒888-8888
+            </p>
+            <p class="about__adress-text font-weight-b">
+              長野県〇〇群〇〇町８８８８
+            </p>
+          </div>
+        </div>
+        <div class="about__map-area">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3231.419590648834!2d138.23567111526518!3d35.91222838014108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601c5cb55cfb116f%3A0x714937df5bdb4f4c!2z5a-M5aOr6KaL6aeF!5e0!3m2!1sja!2sjp!4v1645800558287!5m2!1sja!2sjp"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- 関連記事 -->
+    <section class="relation background-lightblue" id="relation">
+      <div class="relation__container container">
+        <div class="relation__heading-area position-relative d-flex">
+          <div class="relation__line-stripe d-inline-block  w-100 line-stripe"></div>
+          <div class="relation__heading-box position-absolute w-100">
+            <p class="relation__heading-text d-inline-block font-color-blue font-weight-b">
+              関連記事
+            </p>
+          </div>
+        </div>
+        <div class="relation__link-area d-flex justify-content-between">
+          <div class="relation__item item1 d-inline-block">
+            <a class="relation__link" href="">
+              <div class="relation__item-top"></div>
+              <div class="relation__item-middle d-flex justify-content-between">
+                <img class="relation__staffblog-icon" src="image/staffblog_icon.png" alt="スタッフブログ">
+                <img class="relation__label" src="image/eat_label.png" alt="ブログラベル">
+              </div>
+              <div class="relation__item-bottom">
+                <p class="relation__item-name font-weight-b">
+                  店名など
+                </p>
+                <p class="relation_item-heading font-weight-b">
+                  見出しが入ります
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="relation__item item2 d-inline-block">
+            <a class="relation__link" href="">
+              <div class="relation__item-top"></div>
+              <div class="relation__item-middle d-flex justify-content-between">
+                <img class="relation__staffblog-icon" src="image/staffblog_icon.png" alt="スタッフブログ">
+                <img class="relation__label" src="image/eat_label.png" alt="ブログラベル">
+              </div>
+              <div class="relation__item-bottom">
+                <p class="relation__item-name font-weight-b">
+                  店名など
+                </p>
+                <p class="relation_item-heading font-weight-b">
+                  見出しが入ります
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="relation__item item3 d-inline-block">
+            <a class="relation__link" href="">
+              <div class="relation__item-top"></div>
+              <div class="relation__item-middle d-flex justify-content-between">
+                <img class="relation__staffblog-icon" src="image/staffblog_icon.png" alt="スタッフブログ">
+                <img class="relation__label" src="image/eat_label.png" alt="ブログラベル">
+              </div>
+              <div class="relation__item-bottom">
+                <p class="relation__item-name font-weight-b">
+                  店名など
+                </p>
+                <p class="relation_item-heading font-weight-b">
+                  見出しが入ります
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ブログ一覧へ戻る -->
+    <section class="back" id="back">
+      <div class="back__container container ">
+        <div class="back__button-area">
+          <div class="back__link-area d-inline-block">
+            <a class="back__link" href="">
+              <button class="back__button font-weight-b">
+                ハチスタブログ一覧へGo
+              </button>
+            </a>
+          </div>
+          <img class="back__arrow" src="image/bloglist_arrow.png" alt="矢印">
+        </div>
+        <a href="">
+          <div class="back__sns-top-area d-sm-none d-flex justify-content-center">
+            <div class="back__sns-icon-box ">
+              <i class="fa-brands fa-twitter back__sns-top--icon"></i>
+            </div>
+            <p class="back__sns-top-text d-inline-block">
+              @8mater
+            </p>
+          </div>
+        </a>
+        <div class="back__sns-bottom-area d-sm-none d-flex justify-content-center position-relative">
+          <p class="back__share d-inline-block position-absolute">
+            Share SNS
+          </p>
+          <a href="">
+            <div class="back__icon-box d-flex justify-content-center">
+              <i class="fa-brands fa-twitter back__icon-twitter"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+
+    </footer>
+
+    <!-- Javascript読み込み -->
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み-->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- 自作javascriptの読み込み -->
+    <script src="script/script.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src=""></script>
+
+</body>
+
+</html>
