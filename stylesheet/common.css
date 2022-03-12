@@ -25,6 +25,10 @@ main p {
   background: repeating-linear-gradient(45deg, rgb(187, 187, 187), rgb(187, 187, 187) 5px, transparent 5px, transparent 10px);
 }
 
+.max-width-100 {
+  max-width: 100%;
+}
+
 .font-color-blue {
   color: #52d0dd;
 }

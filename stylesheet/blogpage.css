@@ -47,7 +47,7 @@
   margin-top: 137px;
 }
 .title__heading-box {
-  width: 673;
+  width: 673px;
   /* 青枠 */
   margin:2em 0;
   position: relative;
@@ -388,7 +388,7 @@
   text-align: left;
 }
 
-/* ブログ一覧 */
+/* 一覧へ戻る */
 .back__container {
   padding: 68px 0 74px;
   text-align: left;
