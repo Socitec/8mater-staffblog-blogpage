@@ -6,18 +6,6 @@
 
 /* モバイル向けレイアウト */
 @media all and (max-width: 576px) {
-  /* 共通 */
-  main .container {
-    width: 83.8vw;
-    padding: auto 0;
-  }
-  main p {
-    font-size: 14px;
-  }
-  .line-stripe {
-    height: 12px;
-  }
-
 
   /* メインビジュアル */
   .mainvisual__top {
@@ -179,16 +167,14 @@
     font-size: 18px;
   }
   .relation__item {
-    width: 37.4vw;
+    width: 47.1vw;
   }
   .relation__item-top {
     height: 27.8vw;
   }
   .relation__staffblog-icon {
-    width: 12.0vw;
   }
   .relation__label {
-    width: 9.78vw;
   }
   .relation__item-bottom {
     padding: 6px 6px 19px;

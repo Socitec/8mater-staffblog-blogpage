@@ -1,0 +1,166 @@
+.service
+
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {}
+
+
+/* モバイル向けレイアウト */
+@media all and (max-width: 576px) {
+
+  /* メインビジュアル */
+  .mainvisual__top {
+    margin-top: 56px;
+    align-items: center;
+  }
+
+  .mainvisual__blog-icon {
+    width: 16.7vw;
+  }
+
+  .mainvisual__top-text {
+    font-size: 13px;
+    text-align: left;
+  }
+
+  .mainvisual__top-title {
+    font-size: 30px;
+  }
+
+  .mainvisual__mauntain-icon {
+    margin-top: 34px;
+    width: 128px;
+  }
+
+  .mainvisual__introduction-text {
+    margin-top: 36px;
+
+    width: 100%;
+  }
+
+  /*　タイトル */
+  .newArticle__heading-area {
+    margin-top: 50px;
+  }
+
+  .newArticle__heading-box {
+    margin: 0;
+  }
+
+  .newArticle__heading-text {
+    font-size: 4.5vw;
+  }
+
+  .newArticle__catchcopy {
+    margin-top: 25px;
+  }
+
+  .newArticle__catchcopy-text {
+    width: 100%;
+    font-size: 14px;
+  }
+
+
+  .newArticle__top-box {
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .newArticle__top-text-left {
+    font-size: 5vw;
+  }
+
+  .newArticle__top-text-middle {
+
+    position: absolute;
+    left: 0;
+    bottom: -2em;
+  }
+
+  .newArticle__labelicon-area {
+    margin-top: 25px;
+    width: 100%;
+  }
+
+  .newArticle__button-area {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+
+  .newArticle__button {
+    width: 79.9%;
+    line-height: 16px;
+  }
+
+
+  /* 記事一覧 */
+  .articleList__container {
+    padding: 23px 0 22px;
+  }
+
+  .articleList-list-area {
+    padding-top: 18px;
+  }
+
+  .articleList__list-box {
+    padding-bottom: 25px;
+  }
+
+  .articleList__categoryTitle-text {
+    font-size: 3vw;
+  }
+
+  .articleList__link-area {
+    margin: 15px auto 15px;
+  }
+
+  .articleList__heading-text {
+    font-size: 18px;
+  }
+
+  .articleList__items {
+    padding-top: 15px;
+  }
+
+  .articleList__item {
+    width: 47.1vw;
+  }
+
+  .articleList__item-top {
+    height: 27.8vw;
+  }
+
+  .articleList__item-middle {
+    height: 20px;
+  }
+
+  .articleList__staffblog-icon {}
+
+  .articleList__label {}
+
+  .articleList__item-bottom {
+    padding: 6px 6px 19px;
+  }
+
+  .articleList__item-name {
+    font-size: 9px;
+  }
+
+  .articleList_item-heading {
+    font-size: 9px;
+  }
+
+
+  /* ブログ一覧 */
+  .back__button {
+    margin-right: 0;
+  }
+
+  .back__arrow {
+    width: 28.5vw;
+  }
+
+
+
+
+
+}

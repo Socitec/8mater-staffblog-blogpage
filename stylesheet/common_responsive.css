@@ -1,0 +1,24 @@
+.service
+
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {}
+
+
+/* モバイル向けレイアウト */
+@media all and (max-width: 576px) {
+
+
+  /* 共通 */
+  main .container {
+    width: 83.8vw;
+    padding: auto 0;
+  }
+
+  main p {
+    font-size: 14px;
+  }
+
+  .line-stripe {
+    height: 12px;
+  }
+}
