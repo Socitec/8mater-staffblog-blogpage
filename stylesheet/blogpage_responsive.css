@@ -1,5 +1,10 @@
 .service/* タブレット向けレイアウト */
 @media all and (max-width: 1000px ) {
+
+  /*一言テキストサイズ */
+  .article__recommend-text {
+    font-size: 2.6vw;
+  }
   
 }
 
